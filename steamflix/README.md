@@ -11,3 +11,5 @@ npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 TODO
 -fancy coins increase animation when claiming them
 -termsis back arrow
+
+- fancy hover logole - fillib teksti hiire raadiuses

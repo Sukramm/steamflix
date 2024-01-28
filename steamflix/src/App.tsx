@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 /* import FrontPage from "./pages/FrontPage";
  */ import Terms from "./components/Terms";
+import Library from "./pages/Library";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Welcome />} />
+          <Route path="/library" element={<Library />} />
           <Route path="/terms" element={<Terms />} />
           {/*               <Route path="/edit/:id" element={<Edit />} />
            */}

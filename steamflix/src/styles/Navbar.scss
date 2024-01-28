@@ -1,0 +1,35 @@
+#header {
+  .logo {
+    margin: 1rem;
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: inherit;
+    text-decoration: none;
+  }
+  .rightMenu,
+  .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .user {
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5rem 1rem;
+  }
+  .logo {
+    transition: 0.3s ease-out;
+  }
+  .hover-text:hover {
+    //color: rgb(66, 205, 32);
+    // gradient ?
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
