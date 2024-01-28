@@ -1,0 +1,30 @@
+#Library {
+  .libraryWrap {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  .left {
+    background-color: rgb(186, 186, 253);
+  }
+  .right {
+    background-color: rgb(245, 245, 214);
+  }
+  .left,
+  .right {
+    width: auto;
+    height: 400px;
+  }
+  .leftWrap {
+    padding: 2rem;
+  }
+  .movieInfo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .movieBanner {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(179, 255, 179);
+  }
+}
