@@ -13,7 +13,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import "../styles/Navbar.scss";
 import { Link } from "react-router-dom";
 
-const user = { username: "Veemus", profilePic: "", money: 500 };
+const user = { username: "Veemus", profilePic: "", money: 50 };
 const pages = [
   {
     //STORE
@@ -38,7 +38,7 @@ const pages = [
   {
     //COMMUNITY
     pagename: "Community",
-    pagelink: "",
+    pagelink: "/community",
     subpages: [
       { pagename: "Home", pagelink: "" },
       { pagename: "Announcments", pagelink: "" },
@@ -49,7 +49,7 @@ const pages = [
   {
     //USER
     pagename: user.username,
-    pagelink: "",
+    pagelink: `/user/${user.username}`,
     subpages: [
       { pagename: "Account", pagelink: "" },
       { pagename: "Library", pagelink: "" },
