@@ -1,0 +1,67 @@
+USER
+{
+    "userID": 1,
+    "name": "sukramm",
+    "coins": 50,
+    "friends": ["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
+    "movies" :["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
+},
+{
+    "userID": 1,
+    "name": "sukramm",
+    "coins": 50,
+    "friends": ["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
+    "movies" :["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
+}
+
+MOVIES
+  {
+    "movieID": 1,
+    "name": "Inception",
+    "length": 148,
+    "genre": "Sci-Fi",
+    "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "releaseDate": "2010-07-16"
+  },
+  {
+    "movieID": 2,
+    "name": "The Shawshank Redemption",
+    "length": 142,
+    "genre": "Drama",
+    "actors": ["Tim Robbins", "Morgan Freeman"],
+    "releaseDate": "1994-09-23"
+  },
+  {
+    "movieID": 3,
+    "name": "Pulp Fiction",
+    "length": 154,
+    "genre": "Crime",
+    "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+    "releaseDate": "1994-10-14"
+  }
+
+SERIES
+  {
+    "seriesID": 1,
+    "name": "Breaking Bad",
+    "genre": "Drama",
+    "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+    "releaseDate": "2008-01-20"
+  },
+  {
+    "seriesID": 2,
+    "name": "Game of Thrones",
+    "genre": "Fantasy",
+    "actors": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
+    "releaseDate": "2011-04-17"
+  },
+  {
+    "seriesID": 3,
+    "name": "Stranger Things",
+    "genre": "Sci-Fi",
+    "actors": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
+    "releaseDate": "2016-07-15"
+  }
+
+
+
