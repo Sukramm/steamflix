@@ -91,26 +91,28 @@ function Navbar() {
           >
             <Link to={"/"}>STEAMFLIX</Link>
           </Typography>
-          <Typography
-            className="logo hover-effect"
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-          ></Typography>
+
           <Box
             className="leftMenu"
-            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+            sx={{
+              flexGrow: 1,
+              display: {
+                xs: "none",
+                md: "flex",
+                justifyContent: "flex-start",
+                gap: "2rem",
+              },
+            }}
           >
             {pages.map((page) => (
               <>
-                <Button
+                <Box
                   key={page.pagename}
                   onClick={handleOpenNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   <Link to={page.pagelink}>{page.pagename}</Link>
-                </Button>
+                </Box>
                 <Menu
                   sx={{ mt: "45px" }}
                   id="menu-appbar"
