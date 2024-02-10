@@ -12,6 +12,20 @@ USER
     "coins": 50,
     "friends": ["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
     "movies" :["ObjectID('AAAA')", "ObjectID('BBBB')", "ObjectID('CCCC')"]
+    "movies" :[
+      {
+        name:"ObjectID('AAAA')"
+        state:"finished"
+      },
+      {
+        name:"ObjectID('BBBB')"
+        state:"new"
+      },
+      {
+        name:"ObjectID('CCCC')"
+        state:"unfinished"
+      },   
+    ]
 }
 
 MOVIES
