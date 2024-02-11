@@ -1,4 +1,3 @@
-import React from "react";
 import passCard from "../../public/pics/payment/passCard.png";
 import expertCard from "../../public/pics/payment/expertCard.png";
 import "../styles/payment.scss";
