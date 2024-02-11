@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+/* import { MongoClient } from "mongodb";
 import { mongoURI } from "./MongoUri.js";
 let dbConnection;
 const dbName = "steamflix";
@@ -17,3 +17,4 @@ export function connectToDb(cb) {
 export function getDb() {
   return dbConnection;
 }
+ */

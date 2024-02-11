@@ -1,4 +1,4 @@
-import express from "express";
+/* import express from "express";
 import { connectToDb, getDb } from "./db.js";
 
 const app = express();
@@ -29,3 +29,4 @@ app.get("/movies", (req, res) => {
       res.status(500).json({ error: "could not fetch" });
     });
 });
+ */
