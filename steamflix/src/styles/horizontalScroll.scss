@@ -1,0 +1,15 @@
+@import "variables";
+
+.FeatureDcarousel {
+  background-color: $green;
+
+  /* .carousel-item.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }*/
+  .carousel-caption {
+    position: unset;
+  }
+}

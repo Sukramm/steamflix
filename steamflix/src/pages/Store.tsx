@@ -1,5 +1,11 @@
+import HorizontalScroll from "../components/HorizontalScroll";
+
 function Store() {
-  return <div>Store</div>;
+  return (
+    <div>
+      <HorizontalScroll></HorizontalScroll>
+    </div>
+  );
 }
 
 export default Store;

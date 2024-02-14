@@ -16,7 +16,7 @@ const pages = [
   {
     //STORE
     pagename: "Store",
-    pagelink: "",
+    pagelink: "/store",
     subpages: [
       { pagename: "Store", pagelink: "" },
       { pagename: "Featured", pagelink: "" },

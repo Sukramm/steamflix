@@ -20,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/" element={<FrontPage />} />
+          <Route path="/store" element={<Store />} />
           <Route path="/library" element={<Library />} />
           <Route path="/user" element={<UserProfile />} />
           <Route path="/community" element={<Community />} />
@@ -28,7 +29,7 @@ function App() {
           {/*               <Route path="/edit/:id" element={<Edit />} />
            */}
         </Routes>
-        <Footer></Footer>
+        <Footer />
       </Router>
     </>
   );
