@@ -11,6 +11,7 @@ import Library from "./pages/Library";
 import UserProfile from "./pages/UserProfile";
 import Community from "./pages/Community";
 import Store from "./pages/Store";
+import SignIn from "./pages/SignIn";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/community" element={<Community />} />
           <Route path="/store" element={<Store />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/signin" element={<SignIn />} />
           {/*               <Route path="/edit/:id" element={<Edit />} />
            */}
         </Routes>
