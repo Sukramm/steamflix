@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import "../styles/horizontalScroll.scss";
+import "../styles/Store/horizontalScroll.scss";
 import FeaturedCarouselItem from "./FeaturedCarouselItem";
 import { useState } from "react";
 
